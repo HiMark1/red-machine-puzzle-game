@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1893460348380938504}
   - component: {fileID: 814804825982830982}
+  - component: {fileID: 2213132116042753197}
   m_Layer: 0
   m_Name: TargetColor
   m_TagString: Untagged
@@ -48,6 +49,22 @@ MonoBehaviour:
   targetColor: {r: 0, g: 0, b: 0, a: 1}
   spriteRenderer: {fileID: 1562988944267069685}
   colorNode: {fileID: 0}
+--- !u!58 &2213132116042753197
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3555120839248075070}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.008736014, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.6906136
 --- !u!1 &7381940132227789123
 GameObject:
   m_ObjectHideFlags: 0
