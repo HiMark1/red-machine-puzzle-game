@@ -94,6 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7779944185140967434}
   - component: {fileID: 653673499853785237}
+  - component: {fileID: 6705743190792027300}
   m_Layer: 0
   m_Name: ColorNode
   m_TagString: Untagged
@@ -134,3 +135,19 @@ MonoBehaviour:
   isEmpty: 0
   emptySprite: {fileID: 7482667652216324306, guid: db750325989564987a34393247d883b4, type: 3}
   filledSprite: {fileID: -2413806693520163455, guid: 4adeaf2d2b1c7417e89f026626d8264f, type: 3}
+--- !u!58 &6705743190792027300
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8685213208705673470}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
